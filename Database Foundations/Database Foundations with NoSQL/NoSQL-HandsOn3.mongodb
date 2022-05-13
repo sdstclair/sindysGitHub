@@ -1,0 +1,66 @@
+//To be accompanied by Text Document
+
+//PART 1
+//Within your inventory collection, run queries to accomplish the following:
+
+db.inventory.find()
+//Update the items of journal to have a height of 16.
+db.inventory.updateOne({ item : 'journal' }, { $set : { height : 16 }})
+//Update all items with a status of D to have quantity of 50.
+db.inventory.updateMany({ status : 'D'}, { $set : { quantity : 50}})
+//Update all item paper ot include a field rating that has the value of 4 stars and change its status to A.
+db.inventory.updateOne({ item: 'paper'}, { $set : { rating : '4 stars', status: 'A'}})
+//Update all items to change the h and w fields to be height and width.
+db.inventory.updateMany({}, {$rename: {"size.h": "size.height", "size.w": "size.width"}})
+//Update the item spiral notebook so that the height and width is incremented by 2.
+db.inventory.updateOne({item: "spiral notebook"}, {$inc: {"size.height": 2, "size.width": 2}})
+//Update the items paper and day planner to multiply the height by 3.
+db.inventory.updateOne({item: "paper"}, {$mul: {"size.height": 3}})
+db.inventory.updateOne({item: "day planner"}, {$mul: {"size.height": 3}})
+
+//PART 2
+db.inventory.insertMany([
+  {
+    item: 'sticky note pads',
+    size: { height: 8.9, width: 9, uom: 'cm' },
+    status: 'B',
+    quantity: 5
+  },
+  {
+    item: 'pens',
+    size: { height: 12, width: 1.3, uom: 'cm' },
+    status: 'A',
+    quantity: 4
+  },
+  {
+    item: 'pencils',
+    size: { height: 13, width: 1.4, uom: 'cm' },
+    status: 'D',
+    quantity: 10
+  },
+  {
+    item: 'clipboard',
+    size: { height: 13, width: 7, uom: 'in' },
+    status: 'B',
+    quantity: 2
+  },
+  {
+    item: 'printer ink',
+    size: { height: 2, width: 3, uom: 'in' },
+    status: 'C',
+    quantity: 2
+  }
+]);
+
+//Give each product a rating of 4 stars to start
+//as well as af ield that shows if it has been
+//rated yet using a boolean. They would like this
+//to be reflected in the database as rating with
+//two fields: numberOfStars, and hasBeenRated. Also,
+//they want to double the quantity of every product
+//since the company is rapidly growing. Lastly, they
+//would like you to find all products that are sized
+//using centimeters and give them a status of "B".
+db.inventory.updateMany({}, {$set: {rating: {numberOfStars: 4, hasBeenRated: true}}}, {upsert: true})
+db.inventory.updateMany({}, {$mul: {quantity: 2}})
+db.inventory.updateMany({"size.uom": "cm"}, {$set: {status : "B"}}, {upsert: true})

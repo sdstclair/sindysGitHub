@@ -1,0 +1,214 @@
+//Part 1
+db.createCollection("employees");
+db.employees.insertMany([
+    {
+        Name: "Alison Davidson",
+        Birthday: "04/05/75",
+        Address: "874 W. Oak Place",
+        City: "Gary",
+        State: "Indiana",
+        position: { PositionName : "Customer Support", Remote: true, FullTime: true},
+    },
+    {
+        Name: "Henry Chapelton",
+        Birthday: "09/29/80",
+        Address: "9324 E. East Vista Way",
+        City: "Tempe",
+        State: "Arizona",
+        position: { PositionName : "Customer Support", Remote: false, FullTime: true},
+    },
+    {
+        Name: "Alex Miller",
+        Birthday: "11/22/83",
+        Address: "244 Price Road",
+        City: "Mesa",
+        State: "Arizona",
+        position : { PositionName : "Customer Support", Remote: false, FullTime: true},
+    },
+    {
+        Name: "Carly Nielson",
+        Birthday: "08/04/87",
+        Address: "678 W. Westward Road",
+        City: "Phoenix",
+        State: "Arizona",
+        position : { PositionName : "Office Manager", Remote: false, FullTime: true},
+    },
+    {
+        Name: "Tom Talbot",
+        Birthday: "12/30/89",
+        Address: "12 Oakland Way",
+        City: "Chandler",
+        State: "Arizona",
+        position: { PositionName : "Inventory Manager", Remote: false, FullTime: true},
+    },
+    {
+        Name: "Mary Crawley", 
+        Birthday: "07/06/80",
+        Address: "1010 Granite Way", 
+        City: "Charlotte", 
+        State: "North Carolina", 
+        position: { PositionName : "Human Resources", Remote: true, FullTime: true},
+    },
+    {
+        Name: "Daisy Baxter",
+        Birthday: "09/09/87",
+        Address: "990 E. 84th St.",
+        City: "Tempe",
+        State: "Arizona",
+        position: { PositionName : "CEO", Remote: false, FullTime: true},
+    },
+    {
+        Name: "William Coyle",
+        Birthday: "10/11/91",
+        Address: "944 W. 16 St.",
+        City: "Phoenix",
+        State: "Arizona",
+        position: { PositionName : "Intern", Remote: false, FullTime: false},
+    },
+    {
+        Name: "Edith Bates",
+        Birthday: "07/28/90",
+        Address: "7 E. 20th Pl.",
+        City: "Chandler",
+        State: "Arizona",
+        position: { PositionName: "Customer Support", Remote: false, FullTime: true},
+    },
+    {
+        Name: "Gwen Harding",
+        Birthday: "10/11/86",
+        Address: "234 W. 48th St.",
+        City: "Phoenix",
+        State: "Arizona",
+        position: { PositionName: "Office Assistant", Remote: false, FullTime: true},
+    },
+]);
+
+//update: Alison Davison now lives at 777 E. 1st St. #120 Tempe, AZ
+//update: Mary Crawley now lives at 8322 W. Vista Pl. Scottsdale, AZ
+//update: change remote to false for all new employees in AZ
+//update: remove field 'state' from collection
+db.employees.find({})
+db.employees.updateMany({Address : "874 W. Oak Place"}, { $set: { Address : '777 E. 1st St. #120' }})
+db.employees.updateMany({City : "Gary"}, { $set: { City : "Tempe"}})
+db.employees.updateMany({State : "Indiana"}, { $set: {State : "Arizona"}})
+db.employees.updateMany({Address: "1010 Granite Way"}, { $set: { Address : '8322 W. Vista Pl.'}})
+db.employees.updateMany({City : "Charlotte"}, { $set: { City : "Scottsdale"}})
+db.employees.updateMany({State : "North Carolina"}, { $set: {State : "Arizona"}})
+db.employees.updateMany({ "position.Remote": true }, { $set: { State: "Arizona", "position.Remote" : false}});
+db.employees.updateMany({state: "Arizona" }, { $unset: { state: '' } });
+
+db.employees.drop();
+//create index for position.
+db.employees.createIndex({ position : 1})
+db.employees.getIndexes();
+
+db.employees.dropIndexes()
+
+
+
+//Part 2
+db.createCollection("songs");
+db.songs.insertMany([
+    {
+        SongId: 1,
+        Title: "Girls Just Want To Have Fun",
+        details : { Artist: "Cyndi Lauper", Album: "She's So Unusual", ReleaseYear: 1983},
+    },
+    {
+        SongId: 2,
+        Title: "Hips Don't Lie",
+        details : { Artist: "Shakira feat. Wyclef Jean", Album: "Oral Fixation Vol. 2", ReleaseYear: 2006},
+    },
+    {
+        SongId: 3,
+        Title: "Poker Face",
+        details : { Artist: "Lady Gaga", Album: "The Fame", ReleaseYear: 2008},
+    },
+    {
+        SongId: 4,
+        Title: "Wannabe",
+        details : { Artist: "Spice Girls", Album: "Spice", ReleaseYear: 1996},
+    },
+    {
+        SongId: 5,
+        Title: "California",
+        details : { Artist: "Katy Perry feat. Snoop Dog", Album: "Teenage Dream", ReleaseYear: 2010},
+    },
+    {
+        SongId: 6,
+        Title: "Bye, Bye, Bye",
+        details : { Artist: "NSYNC", Album: "No Strings Attached", ReleaseYear: 2000},
+    },
+    {
+        SongId: 7,
+        Title: "I Will Always Love You",
+        details : { Artist: "Whitney Houston", Album: "I Will Always Love: The Best of Whitney Houston", ReleaseYear: 2012},
+    },
+    {
+        SongId: 8,
+        Title: "Baby One More Time",
+        details : { Artist: "Britney Spears", Album: "Baby One More Time", ReleaseYear: 1999},
+    },
+    {
+        SongId: 9,
+        Title: "Vogue",
+        details : { Artist: "Madonna", Album: "I'm Breathless", ReleaseYear: 1990},
+    },
+    {
+        SongId: 10,
+        Title: "Rolling in the Deep",
+        details : { Artist: "Adele", Album: "21", ReleaseYear: 2011},
+    },
+    {
+        SongId: 11,
+        Title: "1234",
+        details : { Artist: "Feist", Album: "The Reminder", ReleaseYear: 2007},
+    },
+    {
+        SongId: 12,
+        Title: "Elastic Heart",
+        details : { Artist: "Sia", Album: "The Hunger Games: Catching Fire Soundtrack", ReleaseYear: 2015},
+    },
+    {
+        SongId: 13,
+        Title: "Oops! I Did It Again",
+        details : { Artist: "Britney Spears", Album: "Oops! I Did it Again", ReleaseYear: 2000}
+    },
+    {
+        SongId: 14,
+        Title: "Bad Romance",
+        details : { Artist: "Lady Gaga", Album: "The Fame Monster", ReleaseYear: 2009},
+    },
+    {
+        SongId: 15,
+        Title: "Lose Control",
+        details : { Artist: "Missy Elliot", Album: "The Cookbook", ReleaseYear: 2005},
+    },
+    {
+        SongId: 16,
+        Title: "U Can't Touch This",
+        details : { Artist: "MC Hammer", Album: "Please Hammer, Don't Hurt 'Em", ReleaseYear: 1990},
+    },
+    {
+        SongId: 17,
+        Title: "Thriller",
+        details : { Artist: "Michael Jackson", Album: "Thriller", ReleaseYear: 1982},
+    },
+    {
+        SongId: 18,
+        Title: "Single Ladies",
+        details : { Artist: "Beyonce", Album: "I am...Sasha Fierce", ReleaseYear: 2008},
+    },
+    {
+        SongId: 19,
+        Title: "Rhythm Nation",
+        details : { Artist: "Janet Jackson", Album: "Janet Jackson's Rhythm Nation 1814", ReleaseYear: 1989},
+    },
+]);
+//The title field needs to be renamed to songTitle
+db.songs.updateMany({}, { $rename: { Title : 'songTitle'}});
+//Have the artist field outside the details document with the album and releaseYear embedded.
+db.songs.updateMany({},{ $rename : { "details.Artist" : "Artist"}})
+db.songs.find({})
+
+db.songs.drop()

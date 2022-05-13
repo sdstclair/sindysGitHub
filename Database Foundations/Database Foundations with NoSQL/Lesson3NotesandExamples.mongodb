@@ -1,0 +1,50 @@
+db.appusers.find()
+//Update a single document
+db.appusers.updateOne({"_id" : 1}, { $set : { "middleName" : "Gertrude"}}, { upsert : true})
+//Update Many Documents
+db.appusers.updateMany({"firstName" : "Tommy"}, { $set : { "middleName" : "Henry"}}, { upsert : true})
+//Using update()
+db.appusers.updateOne({"firstName" : "Tommy"}, { $set : { "middleName" : "Henry"}}, { upsert : true})
+//upsert
+db.appusers.updateOne({"firstName" : "Coderboy"}, { $set : { "middleName" : "Cole"}}, { upsert : true})
+//Update Operators
+//$currentDate
+db.appusers.updateOne({ _id: 1 }, { $currentDate: { signedUp: true } });
+
+db.appusers.replaceOne({_id : 2}, { lastName : 'Beck', firstName : 'Rupert', age: 19, favoriteColor: 'green'})
+
+db.products.find()
+//$inc operator increments a field by a specified value
+db.products.update({ _id: 1 }, { $inc: { quantity: -2, 'metrics.orders': 1 } });
+//$inc
+db.products.update({ _id: 1 }, { $inc: { quantity: -2, orders: 1 } });
+
+db.scores.find()
+//insertMany documents
+db.scores.insertMany( [ { "_id" : 1521, "team" : "Fearful Mallards", "score" : 25000 },
+{ "_id" : 2231, "team" : "Tactful Mooses", "score" : 23500 },
+{ "_id" : 4511, "team" : "Aquatic Ponies", "score" : 19250 },
+{ "_id" : 5331, "team" : "Cuddly Zebras", "score" : 15235 },
+{ "_id" : 3412, "team" : "Garrulous Bears", "score" : 22300 } ] )
+//findOneAndReplace() method is used if if you would like to return the original document before updating it.
+db.scores.findOneAndReplace(
+  { score: { $lt: 20000 } },
+  { team: 'Observant Badgers', score: 20000 }
+);
+//$min operator update the value to a specified value if it is less than the field's current value.
+db.scores.update({ _id: 1 }, { $min: { lowScore: 150 } });
+
+db.scores.update({ _id: 1 }, { $min: { lowScore: 250 } });
+//$max operator updates the value to a specified value if it is greater than the field's current value.
+db.scores.update({ _id: 1 }, { $max: { highScore: 950 } });
+
+db.inventory.find()
+//$mul operator will multiply the current value by the specified value. It will then set the value of
+//of the field to the product of the multiplication operation
+db.inventory.updateMany({ status: 'A' }, { $mul: { qty: 2 } });
+//$set operator replaces the current value of a field with a specified value.
+db.inventory.update({ item: 'journal' }, { $set: { status: 'B' } });
+//$unset operator will delete a particular field.
+db.inventory.update({ item: 'journal' }, { $unset: { status: '' } });
+//$rename operator updates the name of a field.
+db.inventory.updateMany({}, { $rename: { qty: 'quantity' } })

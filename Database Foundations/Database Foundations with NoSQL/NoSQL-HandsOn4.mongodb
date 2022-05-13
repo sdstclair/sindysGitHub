@@ -1,0 +1,117 @@
+//Part 1
+//Start off by deleting the entire collection cars.
+db.cars.find()
+db.cars.drop()
+//Next, run the following query to recreate the cars collection.
+db.cars.insertMany([
+  {
+    make: "Hyundai",
+    model: "Santa Fe",
+    price: 8000,
+    year: 2003,
+    used: true,
+    color: "Black"
+  },
+  {
+    make: "BMW",
+    model: "ALPINA B6 Gran Coupe",
+    price: 124300,
+    year: 2017,
+    used: false,
+    color: "Mediterranean Blue Metallic"
+  },
+  {
+    make: "Subaru",
+    model: "Crosstrek 2.0i Premium",
+    price: 22595,
+    year: 2014,
+    used: true,
+    color: "Sunshine Orange"
+  },
+  {
+    make: "Ford",
+    model: "F-350 XL",
+    price: 33705,
+    year: 2017,
+    used: false,
+    color: "Race Red"
+  },
+  {
+    make: "Toyota",
+    model: "Acura MDX",
+    price: 28800,
+    year: 2014,
+    used: true,
+    color: "Graphite Luster Metallic"
+  },
+  {
+    make: "BMW",
+    model: "5 Series 535i Sedan",
+    price: 18995,
+    year: 2013,
+    used: true,
+    color: "Space Gray Metallic"
+  },
+  {
+    make: "Ford",
+    model: "Escape",
+    price: 7480,
+    year: 2011,
+    used: true,
+    color: "Sterling Grey Metallic"
+  },
+  {
+    make: "Subaru",
+    model: "Impreza",
+    price: 18495,
+    year: 2018,
+    used: false,
+    color: "Crimson Red Pearl"
+  },
+  {
+    make: "Toyota",
+    model: "Yaris",
+    price: 15635,
+    year: 2018,
+    used: false,
+    color: "Super White"
+  },
+  {
+    make: "Honda",
+    model: "Civic LX",
+    price: 14999,
+    year: 2016,
+    used: true,
+    color: "Crystal Black Pearl"
+  },
+  {
+    make: "Volkswagen",
+    model: "Jetta 1.4T S",
+    price: 19495,
+    year: 2018,
+    used: false,
+    color: "Silk Blue Metallic"
+  }
+]);
+
+//Create an index on the price field.
+db.cars.createIndex( { price : 1 } )
+db.cars.getIndexes( {price : 1})
+//Create an index on the non-used field for the cars collection.
+db.cars.createIndex( { used : 1 } )
+//Find and delete all documents with a year before 2012.
+db.cars.deleteMany({ year : { $lt : 2012 } } )
+//Delete the first document that is a BMW.
+db.cars.deleteOne({ make : "BMW" })
+
+
+//Part 2
+//Index on the make of the car.
+db.cars.createIndex ( { make : 1 } )
+db.cars.getIndexes( { make : 1 } )
+//Delete the index of the price of the car.
+db.cars.dropIndex( { price : 1 } )
+db.cars.getIndexes()
+//Delete all documents that are Volkswagen.
+db.cars.deleteOne({ make : "Volkswagen" } )
+db.cars.find()

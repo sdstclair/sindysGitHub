@@ -1,0 +1,109 @@
+//Delete All Documents
+
+db.cars.insertMany([
+  {
+    make: 'Hyundai',
+    model: 'Santa Fe',
+    price: 8000,
+    year: 2003,
+    used: true,
+    color: 'Black'
+  },
+  {
+    make: 'BMW',
+    model: 'ALPINA B6 Gran Coupe',
+    price: 124300,
+    year: 2017,
+    used: false,
+    color: 'Mediterranean Blue Metallic'
+  },
+  {
+    make: 'Subaru',
+    model: 'Crosstrek 2.0i Premium',
+    price: 22595,
+    year: 2014,
+    used: true,
+    color: 'Sunshine Orange'
+  },
+  {
+    make: 'Ford',
+    model: 'F-350 XL',
+    price: 33705,
+    year: 2017,
+    used: false,
+    color: 'Race Red'
+  },
+  {
+    make: 'Toyota',
+    model: 'Acura MDX',
+    price: 28800,
+    year: 2014,
+    used: true,
+    color: 'Graphite Luster Metallic'
+  },
+  {
+    make: 'Volkswagen',
+    model: 'Jetta 1.4T S',
+    price: 19495,
+    year: 2018,
+    used: false,
+    color: 'Silk Blue Metallic'
+  }
+]);
+
+//List documents in cars collection.
+db.cars.find()
+//Deletes all the documents in a collection.
+db.cars.deleteMany({})
+//Will delete all cars in cars collection that are used.
+db.cars.deleteMany({ used : true })
+//Will delete all documents that have a price that is less than $30K.
+db.cars.deleteMany({ price: { $lt : 30000 }})
+//Will delete only one document
+db.cars.deleteOne({ used : true })
+//Will delete the first document that has price of less than $30K
+db.cars.deleteOne({ price: { $lt : 30000 }})
+//Will return the document I am deleting right before it deletes it.
+db.cars.findOneAndDelete()
+db.cars.findOneAndDelete({ price: 8000 });
+//Will delete a collection along with all of its documents.
+db.collectionName.drop()
+db.cars.drop()
+db.products.drop();
+
+
+//Single and Compound Indexing
+
+//Single Field Indexing
+db.records.find()
+
+db.records.createIndex( { score : 1 })
+db.records.createIndex( { score : -1 } )
+
+//Compound Indexing
+
+//To create a compound index where a single index structure references multiple fields
+//within a collection's document:
+db.collection.createIndex( { <field1>: <type>, <field2>: <type2>, ... })
+//To create two ascending indexes on the item and stock fields, it will look like this:
+db.products.createIndex( { item: 1, stock: 1 } )
+db.products.find( { item : "Banana" } )
+db.products.find( { item : "Banana", stock : { $gt : 5 } } )
+
+//Indexing on Embedded Fields and Documents
+
+//Create Index on Embedded Field
+//And you wanted to create an ascending index on the state field in the location document, and
+//it would look like this:
+db.records.createIndex( { location.state: 1 } )
+
+//Create Index on Embedded Document
+//The following query will create an index on the location field as a whole:
+db.records.createIndex( { location : 1 })
+db.records.find( { location : { city : "New York", state : "NY" } } )
+
+//Multikey Indexes
+//The array could look like this:
+['Apples', 'Cherries', 'Pineapple'];
+//If MongoDB sees that you have created an index on a field that holds an array as its value, it will
+//will automatically create a Multikey Index.

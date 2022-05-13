@@ -1,0 +1,41 @@
+//Comparison Query Operators
+db.appusers.find({ _id : { $eq : 1} })
+db.appusers.find({ _id : { $ne : 1} })
+db.appusers.find({ _id : { $gt : 1} })
+db.appusers.find({ _id : { $gte : 2} })
+db.appusers.find({ _id : { $lt : 2} })
+db.appusers.find({ _id : { $lte : 2} })
+
+//New Collection
+db.inventory.insertMany([
+{ item: "journal", qty: 25, size: { h: 14, w: 21, uom: "cm" }, status: "A", price: 16.49, sale: true },
+{ item: "spiral notebook", qty: 50, size: { h: 8.5, w: 11, uom: "in" }, status: "A", price: 4.79, sale: false },
+{ item: "paper", qty: 100, size: { h: 8.5, w: 11, uom: "in" }, status: "D", price: 6.99, sale: true },
+{ item: "day planner", qty: 75, size: { h: 22.85, w: 30, uom: "cm" }, status: "D", price: 25.29, sale: true },
+{ item: "calendar", size: { h: 21.75, w: 17, uom: "in" }, status: "B", price: 5.99, sale: false },
+{ item: "scissor", qty: 15, size: { h: 8, w: 4.25, uom: "in" }, status: "B", price: 11.59, sale: true },
+{ item: "tape dispenser", qty: 5, size: { h: 3, w: 7, uom: "in" }, status: "A", price: 3.09, sale: true }
+]);
+
+//Find an Array of Objects
+db.inventory.find( { qty: { $in: [ 5, 15 ] } } )
+db.inventory.find( { qty: { $nin: [ 5, 15 ] } } )
+
+//Logical Operators
+db.inventory.find( { $and: [ { price: { $ne: 6.99 } }, { price: { $exists: true } } ] } )
+db.inventory.find( { $or: [ { qty: { $lt: 20 } }, { price: 16.49 } ] } )
+db.inventory.find( {
+$and : [
+{ $or : [ { price : { $eq : 4.79 } }, { price : { $eq : 3.09 } } ] },
+{ $or : [ { sale : true }, { qty : { $lt : 20 } } ] }
+]
+} )
+db.inventory.find( { price: { $not: { $gt: 4.80 } } } )
+db.inventory.find( { $nor: [ { price: { $gte : 5.99 } }, { sale: { $eq : true } } ] } )
+
+//Element Operators
+db.inventory.find( { qty: { $exists: true, $nin: [ 5, 15 ] } } )
+
+//Array Operators
+
+

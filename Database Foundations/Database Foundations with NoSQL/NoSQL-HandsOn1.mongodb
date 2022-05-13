@@ -1,0 +1,29 @@
+db.createCollection("appusers");
+
+//PART ONE
+
+//Create three more users of your choosing, using the insertOne() query, and add them to the appusers collection.
+//Include at least the firstName, lastName, and age fields. Feel free to also include any other fields you think would be useful data for an app user.
+db.appusers.insertOne({lastName: "Rutherford", firstName: "Wesley", age: 47})
+
+db.appusers.insertOne({lastName: "Wilkinson", firstName: "Rebecca", age: 34})
+
+db.appusers.insertOne({lastName: "Johnson", firstName: "Michael", age: 54})
+
+//Next, run a basic find() query to see all of your documents within your database through the Mongo Shell.
+db.appusers.find({})
+
+//PART TWO
+
+//Create a new collection within your database through Atlas.
+//This new collection should be named cars.
+db.createCollection("cars");
+
+//Insert five cars into this collection using the insertMany() query.
+//Include the following fields: make, model, color, year, fourDoor, and fourWheelDrive.
+//The last two fields, fourDoor and fourWheelDrive, should be of type Boolean (i.e true or false)
+db.cars.insertMany([{make: "Toyota", model: "Corolla", color: "Silver", year: "2003", fourDoor: true, fourWheelDrive: false}, {make: "Nissan", model: "Altima", color: "White", year: "2005", fourDoor: true, fourWheelDrive: false}, {make: "Jeep", model: "Wrangler", color: "Red", year: "2021", fourDoor: true, fourWheelDrive: true}, {make: "Mercedes-Benz", model: "G-Class", color: "White", year: "2020", fourDoor: true, fourWheelDrive: true}, {make: "BMW", model: "2 Series", color: "Blue", year: "2019", fourDoor: true, fourWheelDrive: true}])
+//Once that is done, run a find() query to see your newly created documents.
+db.cars.find({})
+
+//Lastly, return to Atlas and view your collection and documents there.
