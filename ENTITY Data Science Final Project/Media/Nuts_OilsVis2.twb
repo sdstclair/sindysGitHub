@@ -1,0 +1,1430 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.22.0213.1102                               -->
+<workbook original-version='18.1' source-build='2021.4.4 (20214.22.0213.1102)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='usdaNuts_Oils' inline='true' name='federated.0t8ax700l5ypo41c13dyw1txee06' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='usdaNuts_Oils' name='textscan.0yt1r0r1xwfd74108j6jg07lz5sl'>
+            <connection class='textscan' directory='C:/Users/saslo/Data_Science/DS_Portfolio/Queen_Bees/Datasets/Wrangled_Data' filename='usdaNuts_Oils.csv' password='' server='' />
+          </named-connection>
+          <named-connection caption='usdaHoney4_PRODpivot' name='textscan.10vgal801hrzpy17np6cq0ydht33'>
+            <connection class='textscan' directory='C:/Users/saslo/Data_Science/DS_Portfolio/Queen_Bees/Datasets/Wrangled_Data' filename='usdaHoney4_PRODpivot.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.10vgal801hrzpy17np6cq0ydht33' name='usdaHoney4_PRODpivot.csv' table='[usdaHoney4_PRODpivot#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='Year' ordinal='0' />
+            <column datatype='real' name='Almonds, Shelled Basis' ordinal='1' />
+            <column datatype='real' name='Apples, Fresh' ordinal='2' />
+            <column datatype='real' name='Barley' ordinal='3' />
+            <column datatype='real' name='Coffee, Green' ordinal='4' />
+            <column datatype='real' name='Corn' ordinal='5' />
+            <column datatype='real' name='Cotton' ordinal='6' />
+            <column datatype='real' name='Dairy, Milk, Fluid' ordinal='7' />
+            <column datatype='real' name='Filberts, Inshell Basis' ordinal='8' />
+            <column datatype='real' name='Fresh Cherries,(Sweet&amp;Sour)' ordinal='9' />
+            <column datatype='real' name='Fresh Peaches &amp; Nectarines' ordinal='10' />
+            <column datatype='real' name='Grapefruit, Fresh' ordinal='11' />
+            <column datatype='real' name='Grapes, Fresh' ordinal='12' />
+            <column datatype='real' name='Honey' ordinal='13' />
+            <column datatype='real' name='Lemons/Limes, Fresh' ordinal='14' />
+            <column datatype='real' name='Meat, Beef and Veal' ordinal='15' />
+            <column datatype='real' name='Meat, Swine' ordinal='16' />
+            <column datatype='real' name='Oats' ordinal='17' />
+            <column datatype='real' name='Oil, Cottonseed' ordinal='18' />
+            <column datatype='real' name='Oil, Olive' ordinal='19' />
+            <column datatype='real' name='Oil, Peanut' ordinal='20' />
+            <column datatype='real' name='Oil, Rapeseed' ordinal='21' />
+            <column datatype='real' name='Oil, Soybean' ordinal='22' />
+            <column datatype='real' name='Oil, Sunflowerseed' ordinal='23' />
+            <column datatype='real' name='Orange Juice' ordinal='24' />
+            <column datatype='real' name='Oranges, Fresh' ordinal='25' />
+            <column datatype='real' name='Pears, Fresh' ordinal='26' />
+            <column datatype='real' name='Pistachios, Inshell Basis' ordinal='27' />
+            <column datatype='real' name='Poultry, Meat, Turkey' ordinal='28' />
+            <column datatype='real' name='Raisins' ordinal='29' />
+            <column datatype='real' name='Rice, Milled' ordinal='30' />
+            <column datatype='real' name='Rye' ordinal='31' />
+            <column datatype='real' name='Sorghum' ordinal='32' />
+            <column datatype='real' name='Sugar, Centrifugal' ordinal='33' />
+            <column datatype='real' name='Tangerines/Mandarins, Fresh' ordinal='34' />
+            <column datatype='real' name='Walnuts, Inshell Basis' ordinal='35' />
+            <column datatype='real' name='Wheat' ordinal='36' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.10vgal801hrzpy17np6cq0ydht33' name='usdaHoney4_PRODpivot.csv' table='[usdaHoney4_PRODpivot#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='Year' ordinal='0' />
+            <column datatype='real' name='Almonds, Shelled Basis' ordinal='1' />
+            <column datatype='real' name='Apples, Fresh' ordinal='2' />
+            <column datatype='real' name='Barley' ordinal='3' />
+            <column datatype='real' name='Coffee, Green' ordinal='4' />
+            <column datatype='real' name='Corn' ordinal='5' />
+            <column datatype='real' name='Cotton' ordinal='6' />
+            <column datatype='real' name='Dairy, Milk, Fluid' ordinal='7' />
+            <column datatype='real' name='Filberts, Inshell Basis' ordinal='8' />
+            <column datatype='real' name='Fresh Cherries,(Sweet&amp;Sour)' ordinal='9' />
+            <column datatype='real' name='Fresh Peaches &amp; Nectarines' ordinal='10' />
+            <column datatype='real' name='Grapefruit, Fresh' ordinal='11' />
+            <column datatype='real' name='Grapes, Fresh' ordinal='12' />
+            <column datatype='real' name='Honey' ordinal='13' />
+            <column datatype='real' name='Lemons/Limes, Fresh' ordinal='14' />
+            <column datatype='real' name='Meat, Beef and Veal' ordinal='15' />
+            <column datatype='real' name='Meat, Swine' ordinal='16' />
+            <column datatype='real' name='Oats' ordinal='17' />
+            <column datatype='real' name='Oil, Cottonseed' ordinal='18' />
+            <column datatype='real' name='Oil, Olive' ordinal='19' />
+            <column datatype='real' name='Oil, Peanut' ordinal='20' />
+            <column datatype='real' name='Oil, Rapeseed' ordinal='21' />
+            <column datatype='real' name='Oil, Soybean' ordinal='22' />
+            <column datatype='real' name='Oil, Sunflowerseed' ordinal='23' />
+            <column datatype='real' name='Orange Juice' ordinal='24' />
+            <column datatype='real' name='Oranges, Fresh' ordinal='25' />
+            <column datatype='real' name='Pears, Fresh' ordinal='26' />
+            <column datatype='real' name='Pistachios, Inshell Basis' ordinal='27' />
+            <column datatype='real' name='Poultry, Meat, Turkey' ordinal='28' />
+            <column datatype='real' name='Raisins' ordinal='29' />
+            <column datatype='real' name='Rice, Milled' ordinal='30' />
+            <column datatype='real' name='Rye' ordinal='31' />
+            <column datatype='real' name='Sorghum' ordinal='32' />
+            <column datatype='real' name='Sugar, Centrifugal' ordinal='33' />
+            <column datatype='real' name='Tangerines/Mandarins, Fresh' ordinal='34' />
+            <column datatype='real' name='Walnuts, Inshell Basis' ordinal='35' />
+            <column datatype='real' name='Wheat' ordinal='36' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[usdaHoney4_PRODpivot.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[usdaHoney4_PRODpivot.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[usdaHoney4_PRODpivot.csv_C6A51215C9FF4379A1D415AE086F5548]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Almonds, Shelled Basis</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Almonds, Shelled Basis]</local-name>
+            <parent-name>[usdaHoney4_PRODpivot.csv]</parent-name>
+            <remote-alias>Almonds, Shelled Basis</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[usdaHoney4_PRODpivot.csv_C6A51215C9FF4379A1D415AE086F5548]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Apples, Fresh</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Apples, Fresh]</local-name>
+            <parent-name>[usdaHoney4_PRODpivot.csv]</parent-name>
+            <remote-alias>Apples, Fresh</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[usdaHoney4_PRODpivot.csv_C6A51215C9FF4379A1D415AE086F5548]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Barley</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Barley]</local-name>
+            <parent-name>[usdaHoney4_PRODpivot.csv]</parent-name>
+            <remote-alias>Barley</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[usdaHoney4_PRODpivot.csv_C6A51215C9FF4379A1D415AE086F5548]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Coffee, Green</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Coffee, Green]</local-name>
+            <parent-name>[usdaHoney4_PRODpivot.csv]</parent-name>
+            <remote-alias>Coffee, Green</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[usdaHoney4_PRODpivot.csv_C6A51215C9FF4379A1D415AE086F5548]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Corn</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Corn]</local-name>
+            <parent-name>[usdaHoney4_PRODpivot.csv]</parent-name>
+            <remote-alias>Corn</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[usdaHoney4_PRODpivot.csv_C6A51215C9FF4379A1D415AE086F5548]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cotton</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Cotton]</local-name>
+            <parent-name>[usdaHoney4_PRODpivot.csv]</parent-name>
+            <remote-alias>Cotton</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[usdaHoney4_PRODpivot.csv_C6A51215C9FF4379A1D415AE086F5548]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dairy, Milk, Fluid</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Dairy, Milk, Fluid]</local-name>
+            <parent-name>[usdaHoney4_PRODpivot.csv]</parent-name>
+            <remote-alias>Dairy, Milk, Fluid</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[usdaHoney4_PRODpivot.csv_C6A51215C9FF4379A1D415AE086F5548]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Filberts, Inshell Basis</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Filberts, Inshell Basis]</local-name>
+            <parent-name>[usdaHoney4_PRODpivot.csv]</parent-name>
+            <remote-alias>Filberts, Inshell Basis</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[usdaHoney4_PRODpivot.csv_C6A51215C9FF4379A1D415AE086F5548]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fresh Cherries,(Sweet&amp;Sour)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Fresh Cherries,(Sweet&amp;Sour)]</local-name>
+            <parent-name>[usdaHoney4_PRODpivot.csv]</parent-name>
+            <remote-alias>Fresh Cherries,(Sweet&amp;Sour)</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[usdaHoney4_PRODpivot.csv_C6A51215C9FF4379A1D415AE086F5548]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fresh Peaches &amp; Nectarines</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Fresh Peaches &amp; Nectarines]</local-name>
+            <parent-name>[usdaHoney4_PRODpivot.csv]</parent-name>
+            <remote-alias>Fresh Peaches &amp; Nectarines</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[usdaHoney4_PRODpivot.csv_C6A51215C9FF4379A1D415AE086F5548]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Grapefruit, Fresh</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Grapefruit, Fresh]</local-name>
+            <parent-name>[usdaHoney4_PRODpivot.csv]</parent-name>
+            <remote-alias>Grapefruit, Fresh</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[usdaHoney4_PRODpivot.csv_C6A51215C9FF4379A1D415AE086F5548]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Grapes, Fresh</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Grapes, Fresh]</local-name>
+            <parent-name>[usdaHoney4_PRODpivot.csv]</parent-name>
+            <remote-alias>Grapes, Fresh</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[usdaHoney4_PRODpivot.csv_C6A51215C9FF4379A1D415AE086F5548]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Honey</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Honey]</local-name>
+            <parent-name>[usdaHoney4_PRODpivot.csv]</parent-name>
+            <remote-alias>Honey</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[usdaHoney4_PRODpivot.csv_C6A51215C9FF4379A1D415AE086F5548]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lemons/Limes, Fresh</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Lemons/Limes, Fresh]</local-name>
+            <parent-name>[usdaHoney4_PRODpivot.csv]</parent-name>
+            <remote-alias>Lemons/Limes, Fresh</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[usdaHoney4_PRODpivot.csv_C6A51215C9FF4379A1D415AE086F5548]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Meat, Beef and Veal</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Meat, Beef and Veal]</local-name>
+            <parent-name>[usdaHoney4_PRODpivot.csv]</parent-name>
+            <remote-alias>Meat, Beef and Veal</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[usdaHoney4_PRODpivot.csv_C6A51215C9FF4379A1D415AE086F5548]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Meat, Swine</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Meat, Swine]</local-name>
+            <parent-name>[usdaHoney4_PRODpivot.csv]</parent-name>
+            <remote-alias>Meat, Swine</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[usdaHoney4_PRODpivot.csv_C6A51215C9FF4379A1D415AE086F5548]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Oats</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Oats]</local-name>
+            <parent-name>[usdaHoney4_PRODpivot.csv]</parent-name>
+            <remote-alias>Oats</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[usdaHoney4_PRODpivot.csv_C6A51215C9FF4379A1D415AE086F5548]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Oil, Cottonseed</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Oil, Cottonseed]</local-name>
+            <parent-name>[usdaHoney4_PRODpivot.csv]</parent-name>
+            <remote-alias>Oil, Cottonseed</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[usdaHoney4_PRODpivot.csv_C6A51215C9FF4379A1D415AE086F5548]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Oil, Olive</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Oil, Olive]</local-name>
+            <parent-name>[usdaHoney4_PRODpivot.csv]</parent-name>
+            <remote-alias>Oil, Olive</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[usdaHoney4_PRODpivot.csv_C6A51215C9FF4379A1D415AE086F5548]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Oil, Peanut</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Oil, Peanut]</local-name>
+            <parent-name>[usdaHoney4_PRODpivot.csv]</parent-name>
+            <remote-alias>Oil, Peanut</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[usdaHoney4_PRODpivot.csv_C6A51215C9FF4379A1D415AE086F5548]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Oil, Rapeseed</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Oil, Rapeseed]</local-name>
+            <parent-name>[usdaHoney4_PRODpivot.csv]</parent-name>
+            <remote-alias>Oil, Rapeseed</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[usdaHoney4_PRODpivot.csv_C6A51215C9FF4379A1D415AE086F5548]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Oil, Soybean</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Oil, Soybean]</local-name>
+            <parent-name>[usdaHoney4_PRODpivot.csv]</parent-name>
+            <remote-alias>Oil, Soybean</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[usdaHoney4_PRODpivot.csv_C6A51215C9FF4379A1D415AE086F5548]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Oil, Sunflowerseed</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Oil, Sunflowerseed]</local-name>
+            <parent-name>[usdaHoney4_PRODpivot.csv]</parent-name>
+            <remote-alias>Oil, Sunflowerseed</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[usdaHoney4_PRODpivot.csv_C6A51215C9FF4379A1D415AE086F5548]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Orange Juice</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Orange Juice]</local-name>
+            <parent-name>[usdaHoney4_PRODpivot.csv]</parent-name>
+            <remote-alias>Orange Juice</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[usdaHoney4_PRODpivot.csv_C6A51215C9FF4379A1D415AE086F5548]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Oranges, Fresh</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Oranges, Fresh]</local-name>
+            <parent-name>[usdaHoney4_PRODpivot.csv]</parent-name>
+            <remote-alias>Oranges, Fresh</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[usdaHoney4_PRODpivot.csv_C6A51215C9FF4379A1D415AE086F5548]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pears, Fresh</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pears, Fresh]</local-name>
+            <parent-name>[usdaHoney4_PRODpivot.csv]</parent-name>
+            <remote-alias>Pears, Fresh</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[usdaHoney4_PRODpivot.csv_C6A51215C9FF4379A1D415AE086F5548]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pistachios, Inshell Basis</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pistachios, Inshell Basis]</local-name>
+            <parent-name>[usdaHoney4_PRODpivot.csv]</parent-name>
+            <remote-alias>Pistachios, Inshell Basis</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[usdaHoney4_PRODpivot.csv_C6A51215C9FF4379A1D415AE086F5548]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Poultry, Meat, Turkey</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Poultry, Meat, Turkey]</local-name>
+            <parent-name>[usdaHoney4_PRODpivot.csv]</parent-name>
+            <remote-alias>Poultry, Meat, Turkey</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[usdaHoney4_PRODpivot.csv_C6A51215C9FF4379A1D415AE086F5548]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Raisins</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Raisins]</local-name>
+            <parent-name>[usdaHoney4_PRODpivot.csv]</parent-name>
+            <remote-alias>Raisins</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[usdaHoney4_PRODpivot.csv_C6A51215C9FF4379A1D415AE086F5548]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rice, Milled</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Rice, Milled]</local-name>
+            <parent-name>[usdaHoney4_PRODpivot.csv]</parent-name>
+            <remote-alias>Rice, Milled</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[usdaHoney4_PRODpivot.csv_C6A51215C9FF4379A1D415AE086F5548]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rye</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Rye]</local-name>
+            <parent-name>[usdaHoney4_PRODpivot.csv]</parent-name>
+            <remote-alias>Rye</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[usdaHoney4_PRODpivot.csv_C6A51215C9FF4379A1D415AE086F5548]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sorghum</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sorghum]</local-name>
+            <parent-name>[usdaHoney4_PRODpivot.csv]</parent-name>
+            <remote-alias>Sorghum</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[usdaHoney4_PRODpivot.csv_C6A51215C9FF4379A1D415AE086F5548]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sugar, Centrifugal</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sugar, Centrifugal]</local-name>
+            <parent-name>[usdaHoney4_PRODpivot.csv]</parent-name>
+            <remote-alias>Sugar, Centrifugal</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[usdaHoney4_PRODpivot.csv_C6A51215C9FF4379A1D415AE086F5548]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tangerines/Mandarins, Fresh</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Tangerines/Mandarins, Fresh]</local-name>
+            <parent-name>[usdaHoney4_PRODpivot.csv]</parent-name>
+            <remote-alias>Tangerines/Mandarins, Fresh</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[usdaHoney4_PRODpivot.csv_C6A51215C9FF4379A1D415AE086F5548]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Walnuts, Inshell Basis</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Walnuts, Inshell Basis]</local-name>
+            <parent-name>[usdaHoney4_PRODpivot.csv]</parent-name>
+            <remote-alias>Walnuts, Inshell Basis</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[usdaHoney4_PRODpivot.csv_C6A51215C9FF4379A1D415AE086F5548]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wheat</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Wheat]</local-name>
+            <parent-name>[usdaHoney4_PRODpivot.csv]</parent-name>
+            <remote-alias>Wheat</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[usdaHoney4_PRODpivot.csv_C6A51215C9FF4379A1D415AE086F5548]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='real' name='[Almonds, Shelled Basis]' role='measure' type='quantitative' />
+      <column caption='Commodity Description' datatype='string' name='[Commodity_Description]' role='dimension' type='nominal' />
+      <column datatype='real' name='[Dairy, Milk, Fluid]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Honey]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Meat, Swine]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Oil, Rapeseed]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Oil, Soybean]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Walnuts, Inshell Basis]' role='measure' type='quantitative' />
+      <column caption='Year1' datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='usdaHoney4_PRODpivot.csv' datatype='table' name='[__tableau_internal_object_id__].[usdaHoney4_PRODpivot.csv_C6A51215C9FF4379A1D415AE086F5548]' role='measure' type='quantitative' />
+      <column-instance column='[Commodity_Description]' derivation='None' name='[none:Commodity_Description:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Almonds, Shelled Basis]' derivation='Sum' name='[sum:Almonds, Shelled Basis:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Dairy, Milk, Fluid]' derivation='Sum' name='[sum:Dairy, Milk, Fluid:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Honey]' derivation='Sum' name='[sum:Honey:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Meat, Swine]' derivation='Sum' name='[sum:Meat, Swine:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Oil, Rapeseed]' derivation='Sum' name='[sum:Oil, Rapeseed:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Oil, Soybean]' derivation='Sum' name='[sum:Oil, Soybean:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Walnuts, Inshell Basis]' derivation='Sum' name='[sum:Walnuts, Inshell Basis:qk]' pivot='key' type='quantitative' />
+      <group hidden='true' name='[Exclusions (Commodity Description,Year)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Commodity_Description:nk]' />
+          <groupfilter function='level-members' level='[none:Year:qk]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0t8ax700l5ypo41c13dyw1txee06].[sum:Honey:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0t8ax700l5ypo41c13dyw1txee06].[sum:Almonds, Shelled Basis:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0t8ax700l5ypo41c13dyw1txee06]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0t8ax700l5ypo41c13dyw1txee06].[sum:Dairy, Milk, Fluid:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0t8ax700l5ypo41c13dyw1txee06].[sum:Oil, Soybean:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0t8ax700l5ypo41c13dyw1txee06].[sum:Walnuts, Inshell Basis:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0t8ax700l5ypo41c13dyw1txee06].[sum:Oil, Rapeseed:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.0t8ax700l5ypo41c13dyw1txee06].[sum:Meat, Swine:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='usdaHoney4_PRODpivot.csv' id='usdaHoney4_PRODpivot.csv_C6A51215C9FF4379A1D415AE086F5548'>
+            <properties context=''>
+              <relation connection='textscan.10vgal801hrzpy17np6cq0ydht33' name='usdaHoney4_PRODpivot.csv' table='[usdaHoney4_PRODpivot#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='Year' ordinal='0' />
+                  <column datatype='real' name='Almonds, Shelled Basis' ordinal='1' />
+                  <column datatype='real' name='Apples, Fresh' ordinal='2' />
+                  <column datatype='real' name='Barley' ordinal='3' />
+                  <column datatype='real' name='Coffee, Green' ordinal='4' />
+                  <column datatype='real' name='Corn' ordinal='5' />
+                  <column datatype='real' name='Cotton' ordinal='6' />
+                  <column datatype='real' name='Dairy, Milk, Fluid' ordinal='7' />
+                  <column datatype='real' name='Filberts, Inshell Basis' ordinal='8' />
+                  <column datatype='real' name='Fresh Cherries,(Sweet&amp;Sour)' ordinal='9' />
+                  <column datatype='real' name='Fresh Peaches &amp; Nectarines' ordinal='10' />
+                  <column datatype='real' name='Grapefruit, Fresh' ordinal='11' />
+                  <column datatype='real' name='Grapes, Fresh' ordinal='12' />
+                  <column datatype='real' name='Honey' ordinal='13' />
+                  <column datatype='real' name='Lemons/Limes, Fresh' ordinal='14' />
+                  <column datatype='real' name='Meat, Beef and Veal' ordinal='15' />
+                  <column datatype='real' name='Meat, Swine' ordinal='16' />
+                  <column datatype='real' name='Oats' ordinal='17' />
+                  <column datatype='real' name='Oil, Cottonseed' ordinal='18' />
+                  <column datatype='real' name='Oil, Olive' ordinal='19' />
+                  <column datatype='real' name='Oil, Peanut' ordinal='20' />
+                  <column datatype='real' name='Oil, Rapeseed' ordinal='21' />
+                  <column datatype='real' name='Oil, Soybean' ordinal='22' />
+                  <column datatype='real' name='Oil, Sunflowerseed' ordinal='23' />
+                  <column datatype='real' name='Orange Juice' ordinal='24' />
+                  <column datatype='real' name='Oranges, Fresh' ordinal='25' />
+                  <column datatype='real' name='Pears, Fresh' ordinal='26' />
+                  <column datatype='real' name='Pistachios, Inshell Basis' ordinal='27' />
+                  <column datatype='real' name='Poultry, Meat, Turkey' ordinal='28' />
+                  <column datatype='real' name='Raisins' ordinal='29' />
+                  <column datatype='real' name='Rice, Milled' ordinal='30' />
+                  <column datatype='real' name='Rye' ordinal='31' />
+                  <column datatype='real' name='Sorghum' ordinal='32' />
+                  <column datatype='real' name='Sugar, Centrifugal' ordinal='33' />
+                  <column datatype='real' name='Tangerines/Mandarins, Fresh' ordinal='34' />
+                  <column datatype='real' name='Walnuts, Inshell Basis' ordinal='35' />
+                  <column datatype='real' name='Wheat' ordinal='36' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Linear Relationship: Nuts &amp; Oils to Honey from 1998-2012</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='usdaNuts_Oils' name='federated.0t8ax700l5ypo41c13dyw1txee06' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0t8ax700l5ypo41c13dyw1txee06'>
+            <column datatype='real' name='[Almonds, Shelled Basis]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Honey]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Oil, Rapeseed]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Oil, Soybean]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Walnuts, Inshell Basis]' role='measure' type='quantitative' />
+            <column caption='Year1' datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Almonds, Shelled Basis]' derivation='Sum' name='[sum:Almonds, Shelled Basis:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Honey]' derivation='Sum' name='[sum:Honey:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Oil, Rapeseed]' derivation='Sum' name='[sum:Oil, Rapeseed:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Oil, Soybean]' derivation='Sum' name='[sum:Oil, Soybean:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Walnuts, Inshell Basis]' derivation='Sum' name='[sum:Walnuts, Inshell Basis:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0t8ax700l5ypo41c13dyw1txee06].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0t8ax700l5ypo41c13dyw1txee06].[sum:Almonds, Shelled Basis:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0t8ax700l5ypo41c13dyw1txee06].[sum:Walnuts, Inshell Basis:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0t8ax700l5ypo41c13dyw1txee06].[sum:Oil, Rapeseed:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0t8ax700l5ypo41c13dyw1txee06].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0t8ax700l5ypo41c13dyw1txee06].[sum:Almonds, Shelled Basis:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0t8ax700l5ypo41c13dyw1txee06].[sum:Walnuts, Inshell Basis:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0t8ax700l5ypo41c13dyw1txee06].[sum:Oil, Rapeseed:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0t8ax700l5ypo41c13dyw1txee06].[sum:Oil, Soybean:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0t8ax700l5ypo41c13dyw1txee06].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0t8ax700l5ypo41c13dyw1txee06].[sum:Honey:qk]' field-type='quantitative' max='104814.43771940484' min='60000.0' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0t8ax700l5ypo41c13dyw1txee06].[sum:Oil, Soybean:qk]' field-type='quantitative' fold='true' max='10189982.772122161' min='5000000.0' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0t8ax700l5ypo41c13dyw1txee06].[:Measure Names]' />
+              <lod column='[federated.0t8ax700l5ypo41c13dyw1txee06].[none:Year:qk]' />
+            </encodings>
+          </pane>
+          <pane id='7' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0t8ax700l5ypo41c13dyw1txee06].[Multiple Values]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0t8ax700l5ypo41c13dyw1txee06].[:Measure Names]' />
+              <lod column='[federated.0t8ax700l5ypo41c13dyw1txee06].[none:Year:qk]' />
+            </encodings>
+          </pane>
+          <pane id='8' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0t8ax700l5ypo41c13dyw1txee06].[sum:Oil, Soybean:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0t8ax700l5ypo41c13dyw1txee06].[:Measure Names]' />
+              <lod column='[federated.0t8ax700l5ypo41c13dyw1txee06].[none:Year:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0t8ax700l5ypo41c13dyw1txee06].[Multiple Values] + [federated.0t8ax700l5ypo41c13dyw1txee06].[sum:Oil, Soybean:qk])</rows>
+        <cols>[federated.0t8ax700l5ypo41c13dyw1txee06].[sum:Honey:qk]</cols>
+      </table>
+      <simple-id uuid='{2409DD52-8F2F-4B7C-A4FB-6E8EEB7F1F7D}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>Linear Relationship of Swine and Milk Production with Honey </run>
+            <run>Æ&#10;</run>
+            <run bold='true'>1998-2012</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='usdaNuts_Oils' name='federated.0t8ax700l5ypo41c13dyw1txee06' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0t8ax700l5ypo41c13dyw1txee06'>
+            <column datatype='real' name='[Dairy, Milk, Fluid]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Honey]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Meat, Swine]' role='measure' type='quantitative' />
+            <column caption='Year1' datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Dairy, Milk, Fluid]' derivation='Sum' name='[sum:Dairy, Milk, Fluid:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Honey]' derivation='Sum' name='[sum:Honey:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Meat, Swine]' derivation='Sum' name='[sum:Meat, Swine:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0t8ax700l5ypo41c13dyw1txee06].[sum:Honey:qk]' field-type='quantitative' max='104814.43771940484' min='60000.0' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0t8ax700l5ypo41c13dyw1txee06].[sum:Dairy, Milk, Fluid:qk]' field-type='quantitative' fold='true' max='95784996.084573224' min='60000000.0' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.0t8ax700l5ypo41c13dyw1txee06].[sum:Meat, Swine:qk]' field-type='quantitative' max='11244554.424432263' min='8000000.0' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0t8ax700l5ypo41c13dyw1txee06].[sum:Meat, Swine:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#f2eaf2</color>
+                <color>#f3e3f3</color>
+                <color>#f5dcf5</color>
+                <color>#f6d5f6</color>
+                <color>#f8cef8</color>
+                <color>#f9c7f9</color>
+                <color>#fac0fa</color>
+                <color>#fcb8fc</color>
+                <color>#fdb1fd</color>
+                <color>#ffaaff</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <lod column='[federated.0t8ax700l5ypo41c13dyw1txee06].[none:Year:qk]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0t8ax700l5ypo41c13dyw1txee06].[sum:Meat, Swine:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0t8ax700l5ypo41c13dyw1txee06].[sum:Meat, Swine:qk]' />
+              <lod column='[federated.0t8ax700l5ypo41c13dyw1txee06].[none:Year:qk]' />
+            </encodings>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0t8ax700l5ypo41c13dyw1txee06].[sum:Dairy, Milk, Fluid:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0t8ax700l5ypo41c13dyw1txee06].[sum:Dairy, Milk, Fluid:qk]' />
+              <lod column='[federated.0t8ax700l5ypo41c13dyw1txee06].[none:Year:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0t8ax700l5ypo41c13dyw1txee06].[sum:Meat, Swine:qk] + [federated.0t8ax700l5ypo41c13dyw1txee06].[sum:Dairy, Milk, Fluid:qk])</rows>
+        <cols>[federated.0t8ax700l5ypo41c13dyw1txee06].[sum:Honey:qk]</cols>
+      </table>
+      <simple-id uuid='{EF025B1A-7B09-4280-9F3A-AB82131AF72C}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='100'>
+            <card pane-specification-id='7' param='[federated.0t8ax700l5ypo41c13dyw1txee06].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0t8ax700l5ypo41c13dyw1txee06].[:Measure Names]</field>
+            <field>[federated.0t8ax700l5ypo41c13dyw1txee06].[none:Year:qk]</field>
+            <field>[federated.0t8ax700l5ypo41c13dyw1txee06].[sum:Oil, Soybean:qk]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{A2242B80-DEA4-4B18-9E1C-67CB94F96B79}' />
+    </window>
+    <window class='worksheet' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.0t8ax700l5ypo41c13dyw1txee06].[sum:Meat, Swine:qk]' type='color' />
+            <card pane-specification-id='3' param='[federated.0t8ax700l5ypo41c13dyw1txee06].[sum:Dairy, Milk, Fluid:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0t8ax700l5ypo41c13dyw1txee06].[:Measure Names]</field>
+            <field>[federated.0t8ax700l5ypo41c13dyw1txee06].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{EFEC820F-9048-4220-9809-7C45ADEB72EA}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 3' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 4' width='192'>
+      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
+      AElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>

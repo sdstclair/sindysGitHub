@@ -1,0 +1,90 @@
+,Commodity_Description,Year,Country_Code,Attribute_Description,Unit_Description,Value
+45,"Dairy, Milk, Fluid",1998,US,Production,(MT),71334000.0
+46,"Dairy, Milk, Fluid",1999,US,Production,(MT),73750000.0
+47,"Dairy, Milk, Fluid",2000,US,Production,(MT),75929000.0
+48,"Dairy, Milk, Fluid",2001,US,Production,(MT),74994000.0
+49,"Dairy, Milk, Fluid",2002,US,Production,(MT),77140000.0
+50,"Dairy, Milk, Fluid",2003,US,Production,(MT),77290000.0
+51,"Dairy, Milk, Fluid",2004,US,Production,(MT),77535000.0
+52,"Dairy, Milk, Fluid",2005,US,Production,(MT),80286000.0
+53,"Dairy, Milk, Fluid",2006,US,Production,(MT),82582000.0
+54,"Dairy, Milk, Fluid",2007,US,Production,(MT),84211000.0
+55,"Dairy, Milk, Fluid",2008,US,Production,(MT),86410000.0
+56,"Dairy, Milk, Fluid",2009,US,Production,(MT),86817000.0
+57,"Dairy, Milk, Fluid",2010,US,Production,(MT),87488000.0
+58,"Dairy, Milk, Fluid",2011,US,Production,(MT),89020000.0
+59,"Dairy, Milk, Fluid",2012,US,Production,(MT),91010000.0
+75,Honey,1998,US,Production,(MT),99571.62321
+76,Honey,1999,US,Production,(MT),91800.71933
+77,Honey,2000,US,Production,(MT),99589.31322
+78,Honey,2001,US,Production,(MT),84253.43532
+79,Honey,2002,US,Production,(MT),77684.09135
+80,Honey,2003,US,Production,(MT),82268.52548
+81,Honey,2004,US,Production,(MT),82884.04711
+82,Honey,2005,US,Production,(MT),78910.59871
+83,Honey,2006,US,Production,(MT),69960.81442
+84,Honey,2007,US,Production,(MT),66959.40939
+85,Honey,2008,US,Production,(MT),73922.46948
+86,Honey,2009,US,Production,(MT),65801.39412
+87,Honey,2010,US,Production,(MT),79511.60546
+88,Honey,2011,US,Production,(MT),66768.90159
+89,Honey,2012,US,Production,(MT),63914.00613
+90,"Meat, Beef and Veal",1998,US,Production,(1000 MT CWE),11804.0
+91,"Meat, Beef and Veal",1999,US,Production,(1000 MT CWE),12124.0
+92,"Meat, Beef and Veal",2000,US,Production,(1000 MT CWE),12298.0
+93,"Meat, Beef and Veal",2001,US,Production,(1000 MT CWE),11983.0
+94,"Meat, Beef and Veal",2002,US,Production,(1000 MT CWE),12427.0
+95,"Meat, Beef and Veal",2003,US,Production,(1000 MT CWE),12039.0
+96,"Meat, Beef and Veal",2004,US,Production,(1000 MT CWE),11261.0
+97,"Meat, Beef and Veal",2005,US,Production,(1000 MT CWE),11318.0
+98,"Meat, Beef and Veal",2006,US,Production,(1000 MT CWE),11981.0
+99,"Meat, Beef and Veal",2007,US,Production,(1000 MT CWE),12168.0
+100,"Meat, Beef and Veal",2008,US,Production,(1000 MT CWE),12226.0
+101,"Meat, Beef and Veal",2009,US,Production,(1000 MT CWE),12203.0
+102,"Meat, Beef and Veal",2010,US,Production,(1000 MT CWE),12048.0
+103,"Meat, Beef and Veal",2011,US,Production,(1000 MT CWE),12048.0
+104,"Meat, Beef and Veal",2012,US,Production,(1000 MT CWE),11855.0
+105,"Meat, Chicken",1999,US,Production,(MT),13618000.0
+106,"Meat, Chicken",2000,US,Production,(MT),13943000.0
+107,"Meat, Chicken",2001,US,Production,(MT),14267000.0
+108,"Meat, Chicken",2002,US,Production,(MT),14715000.0
+109,"Meat, Chicken",2003,US,Production,(MT),14924000.0
+110,"Meat, Chicken",2004,US,Production,(MT),15514000.0
+111,"Meat, Chicken",2005,US,Production,(MT),16104000.0
+112,"Meat, Chicken",2006,US,Production,(MT),16159000.0
+113,"Meat, Chicken",2007,US,Production,(MT),16452000.0
+114,"Meat, Chicken",2008,US,Production,(MT),16815000.0
+115,"Meat, Chicken",2009,US,Production,(MT),16162000.0
+116,"Meat, Chicken",2010,US,Production,(MT),16791000.0
+117,"Meat, Chicken",2011,US,Production,(MT),16931000.0
+118,"Meat, Chicken",2012,US,Production,(MT),16856000.0
+119,"Meat, Swine",1998,US,Production,(1000 MT CWE),8623.0
+120,"Meat, Swine",1999,US,Production,(1000 MT CWE),8758.0
+121,"Meat, Swine",2000,US,Production,(1000 MT CWE),8596.0
+122,"Meat, Swine",2001,US,Production,(1000 MT CWE),8691.0
+123,"Meat, Swine",2002,US,Production,(1000 MT CWE),8929.0
+124,"Meat, Swine",2003,US,Production,(1000 MT CWE),9056.0
+125,"Meat, Swine",2004,US,Production,(1000 MT CWE),9313.0
+126,"Meat, Swine",2005,US,Production,(1000 MT CWE),9392.0
+127,"Meat, Swine",2006,US,Production,(1000 MT CWE),9632.0
+128,"Meat, Swine",2007,US,Production,(1000 MT CWE),9962.0
+129,"Meat, Swine",2008,US,Production,(1000 MT CWE),10684.0
+130,"Meat, Swine",2009,US,Production,(1000 MT CWE),10507.0
+131,"Meat, Swine",2010,US,Production,(1000 MT CWE),10187.0
+132,"Meat, Swine",2011,US,Production,(1000 MT CWE),10332.0
+133,"Meat, Swine",2012,US,Production,(1000 MT CWE),10575.0
+149,"Poultry, Meat, Turkey",1998,US,Production,(MT),2365000.0
+150,"Poultry, Meat, Turkey",1999,US,Production,(MT),2372000.0
+151,"Poultry, Meat, Turkey",2000,US,Production,(MT),2419000.0
+152,"Poultry, Meat, Turkey",2001,US,Production,(MT),2490000.0
+153,"Poultry, Meat, Turkey",2002,US,Production,(MT),2557000.0
+154,"Poultry, Meat, Turkey",2003,US,Production,(MT),2529000.0
+155,"Poultry, Meat, Turkey",2004,US,Production,(MT),2441000.0
+156,"Poultry, Meat, Turkey",2005,US,Production,(MT),2464000.0
+157,"Poultry, Meat, Turkey",2006,US,Production,(MT),2545000.0
+158,"Poultry, Meat, Turkey",2007,US,Production,(MT),2667000.0
+159,"Poultry, Meat, Turkey",2008,US,Production,(MT),2801000.0
+160,"Poultry, Meat, Turkey",2009,US,Production,(MT),2733000.0
+161,"Poultry, Meat, Turkey",2010,US,Production,(MT),2607000.0
+162,"Poultry, Meat, Turkey",2011,US,Production,(MT),2593000.0
+163,"Poultry, Meat, Turkey",2012,US,Production,(MT),2675000.0

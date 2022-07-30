@@ -1,0 +1,639 @@
+"","Commodity","Year","Metric.Tons"
+"1","Almonds, Shelled Basis",1998,235884
+"2","Apples, Fresh",1998,5282724
+"3","Asparagus, Fresh",1998,65998
+"4","Avocados, Fresh",1998,144469
+"5","Barley",1998,7655000
+"6","Coffee, Green",1998,13920
+"7","Corn",1998,247882000
+"8","Cotton",1998,3030287.36412
+"9","Dairy, Milk, Fluid",1998,71334000
+"10","Filberts, Inshell Basis",1998,14061
+"11","Fresh Apricots",1998,107492
+"12","Fresh Cherries,(Sweet&Sour)",1998,336521
+"13","Fresh Peaches & Nectarines",1998,1248377
+"14","Fresh Plums & Prunes",1998,486796
+"15","Grapefruit, Fresh",1998,2280000
+"16","Grapes, Fresh",1998,708325
+"17","Honey",1998,99571.62321
+"18","Kiwifruit",1998,31389
+"19","Lemons/Limes, Fresh",1998,678000
+"20","Macadamia, Inshell Basis",1998,26082
+"21","Meat, Beef and Veal",1998,11804000
+"22","Meat, Swine",1998,8623000
+"23","Oats",1998,2406000
+"24","Oil, Cottonseed",1998,377000
+"25","Oil, Olive",1998,1000
+"26","Oil, Peanut",1998,66000
+"27","Oil, Rapeseed",1998,290000
+"28","Oil, Soybean",1998,8202000
+"29","Oil, Sunflowerseed",1998,534000
+"30","Orange Juice",1998,879226
+"31","Oranges, Fresh",1998,8989000
+"32","Pears, Fresh",1998,880061
+"33","Pecans, Inshell Basis",1998,66467
+"34","Pistachios, Inshell Basis",1998,85275
+"35","Potato Products, Frozen",1998,3565812
+"36","Poultry, Meat, Turkey",1998,2365000
+"37","Raisins",1998,255100
+"38","Rice, Milled",1998,5798000
+"39","Rye",1998,309000
+"40","Sorghum",1998,13207000
+"41","Strawberries, Fresh",1998,831254
+"42","Sugar, Centrifugal",1998,7277000
+"43","Tangerines/Mandarins, Fresh",1998,401000
+"44","Walnuts, Inshell Basis",1998,205931
+"45","Wheat",1998,69327000
+"46","Almonds, Shelled Basis",1999,377800
+"47","Apples, Fresh",1999,5746060
+"48","Asparagus, Fresh",1999,68220
+"49","Avocados, Fresh",1999,166289
+"50","Barley",1999,5922000
+"51","Coffee, Green",1999,9780
+"52","Corn",1999,239549000
+"53","Cotton",1999,3694346.60112
+"54","Dairy, Milk, Fluid",1999,73750000
+"55","Filberts, Inshell Basis",1999,34500
+"56","Fresh Apricots",1999,82100
+"57","Fresh Cherries,(Sweet&Sour)",1999,312226
+"58","Fresh Peaches & Nectarines",1999,1342316
+"59","Fresh Plums & Prunes",1999,647408
+"60","Grapefruit, Fresh",1999,2507000
+"61","Grapes, Fresh",1999,804873
+"62","Honey",1999,91800.71933
+"63","Kiwifruit",1999,24494
+"64","Lemons/Limes, Fresh",1999,762000
+"65","Macadamia, Inshell Basis",1999,25628
+"66","Meat, Beef and Veal",1999,12124000
+"67","Meat, Chicken",1999,13618000
+"68","Meat, Swine",1999,8758000
+"69","Oats",1999,2114000
+"70","Oil, Cottonseed",1999,426000
+"71","Oil, Olive",1999,1000
+"72","Oil, Peanut",1999,104000
+"73","Oil, Rapeseed",1999,319000
+"74","Oil, Soybean",1999,8085000
+"75","Oil, Sunflowerseed",1999,478000
+"76","Orange Juice",1999,1071701
+"77","Oranges, Fresh",1999,11875000
+"78","Pears, Fresh",1999,921247
+"79","Pecans, Inshell Basis",1999,184189
+"80","Pistachios, Inshell Basis",1999,56056
+"81","Potato Products, Frozen",1999,3497555
+"82","Poultry, Meat, Turkey",1999,2372000
+"83","Raisins",1999,315973
+"84","Rice, Milled",1999,6502000
+"85","Rye",1999,280000
+"86","Sorghum",1999,15118000
+"87","Strawberries, Fresh",1999,862778
+"88","Sugar, Centrifugal",1999,7597000
+"89","Tangerines/Mandarins, Fresh",1999,505000
+"90","Walnuts, Inshell Basis",1999,256734
+"91","Wheat",1999,62475000
+"92","Almonds, Shelled Basis",2000,318900
+"93","Apples, Fresh",2000,5675890
+"94","Asparagus, Fresh",2000,62233
+"95","Avocados, Fresh",2000,217110
+"96","Barley",2000,6919000
+"97","Coffee, Green",2000,11100
+"98","Corn",2000,251854000
+"99","Cotton",2000,3742245.95592
+"100","Dairy, Milk, Fluid",2000,75929000
+"101","Filberts, Inshell Basis",2000,20471
+"102","Fresh Apricots",2000,89721
+"103","Fresh Cherries,(Sweet&Sour)",2000,318195
+"104","Fresh Peaches & Nectarines",2000,1358464
+"105","Fresh Plums & Prunes",2000,798348
+"106","Grapefruit, Fresh",2000,2233000
+"107","Grapes, Fresh",2000,822658
+"108","Honey",2000,99589.31322
+"109","Kiwifruit",2000,30844
+"110","Lemons/Limes, Fresh",2000,904000
+"111","Macadamia, Inshell Basis",2000,22680
+"112","Meat, Beef and Veal",2000,12298000
+"113","Meat, Chicken",2000,13943000
+"114","Meat, Swine",2000,8596000
+"115","Oats",2000,2165000
+"116","Oil, Cottonseed",2000,384000
+"117","Oil, Olive",2000,1000
+"118","Oil, Peanut",2000,81000
+"119","Oil, Rapeseed",2000,345000
+"120","Oil, Soybean",2000,8355000
+"121","Oil, Sunflowerseed",2000,396000
+"122","Orange Juice",2000,1023339
+"123","Oranges, Fresh",2000,11139000
+"124","Pears, Fresh",2000,884750
+"125","Pecans, Inshell Basis",2000,95076
+"126","Pistachios, Inshell Basis",2000,110179
+"127","Potato Products, Frozen",2000,4330706
+"128","Poultry, Meat, Turkey",2000,2419000
+"129","Raisins",2000,447877
+"130","Rice, Milled",2000,5941000
+"131","Rye",2000,213000
+"132","Sorghum",2000,11952000
+"133","Strawberries, Fresh",2000,749471
+"134","Sugar, Centrifugal",2000,8203000
+"135","Tangerines/Mandarins, Fresh",2000,425000
+"136","Walnuts, Inshell Basis",2000,216816
+"137","Wheat",2000,60641000
+"138","Almonds, Shelled Basis",2001,376500
+"139","Apples, Fresh",2001,5065060
+"140","Asparagus, Fresh",2001,84730
+"141","Avocados, Fresh",2001,166289
+"142","Barley",2001,5407000
+"143","Coffee, Green",2001,10980
+"144","Corn",2001,241377000
+"145","Cotton",2001,4420457.27502
+"146","Dairy, Milk, Fluid",2001,74994000
+"147","Filberts, Inshell Basis",2001,44906
+"148","Fresh Apricots",2001,75296
+"149","Fresh Cherries,(Sweet&Sour)",2001,339359
+"150","Fresh Peaches & Nectarines",2001,1297229
+"151","Fresh Plums & Prunes",2001,572847
+"152","Grapefruit, Fresh",2001,2199000
+"153","Grapes, Fresh",2001,784107
+"154","Honey",2001,84253.43532
+"155","Kiwifruit",2001,23405
+"156","Lemons/Limes, Fresh",2001,727000
+"157","Macadamia, Inshell Basis",2001,24494
+"158","Meat, Beef and Veal",2001,11983000
+"159","Meat, Chicken",2001,14267000
+"160","Meat, Swine",2001,8691000
+"161","Oats",2001,1707000
+"162","Oil, Cottonseed",2001,398000
+"163","Oil, Olive",2001,1000
+"164","Oil, Peanut",2001,104000
+"165","Oil, Rapeseed",2001,287000
+"166","Oil, Soybean",2001,8572000
+"167","Oil, Sunflowerseed",2001,319000
+"168","Orange Juice",2001,1020359
+"169","Oranges, Fresh",2001,11290000
+"170","Pears, Fresh",2001,931631
+"171","Pecans, Inshell Basis",2001,153567
+"172","Pistachios, Inshell Basis",2001,73240
+"173","Potato Products, Frozen",2001,3749850
+"174","Poultry, Meat, Turkey",2001,2490000
+"175","Raisins",2001,378387
+"176","Rice, Milled",2001,6714000
+"177","Rye",2001,175000
+"178","Sorghum",2001,13057000
+"179","Strawberries, Fresh",2001,855294
+"180","Sugar, Centrifugal",2001,7956000
+"181","Tangerines/Mandarins, Fresh",2001,469000
+"182","Walnuts, Inshell Basis",2001,276700
+"183","Wheat",2001,53001000
+"184","Almonds, Shelled Basis",2002,494416
+"185","Apples, Fresh",2002,4605810
+"186","Asparagus, Fresh",2002,83600
+"187","Avocados, Fresh",2002,180849
+"188","Barley",2002,4940000
+"189","Coffee, Green",2002,9780
+"190","Corn",2002,227767000
+"191","Cotton",2002,3746818.16706
+"192","Dairy, Milk, Fluid",2002,77140000
+"193","Filberts, Inshell Basis",2002,17700
+"194","Fresh Apricots",2002,81647
+"195","Fresh Cherries,(Sweet&Sour)",2002,192320
+"196","Fresh Peaches & Nectarines",2002,1519080
+"197","Fresh Plums & Prunes",2002,667680
+"198","Grapefruit, Fresh",2002,1872000
+"199","Grapes, Fresh",2002,891164
+"200","Honey",2002,77684.09135
+"201","Kiwifruit",2002,22770
+"202","Lemons/Limes, Fresh",2002,931000
+"203","Macadamia, Inshell Basis",2002,24040
+"204","Meat, Beef and Veal",2002,12427000
+"205","Meat, Chicken",2002,14715000
+"206","Meat, Swine",2002,8929000
+"207","Oats",2002,1684000
+"208","Oil, Cottonseed",2002,329000
+"209","Oil, Olive",2002,1000
+"210","Oil, Peanut",2002,130000
+"211","Oil, Rapeseed",2002,243000
+"212","Oil, Soybean",2002,8360000
+"213","Oil, Sunflowerseed",2002,145000
+"214","Orange Juice",2002,890045
+"215","Oranges, Fresh",2002,10527000
+"216","Pears, Fresh",2002,807413
+"217","Pecans, Inshell Basis",2002,83721
+"218","Pistachios, Inshell Basis",2002,137562
+"219","Potato Products, Frozen",2002,3837591
+"220","Poultry, Meat, Turkey",2002,2557000
+"221","Raisins",2002,402246
+"222","Rice, Milled",2002,6602000
+"223","Rye",2002,165000
+"224","Sorghum",2002,9163000
+"225","Strawberries, Fresh",2002,977945
+"226","Sugar, Centrifugal",2002,7167000
+"227","Tangerines/Mandarins, Fresh",2002,443000
+"228","Walnuts, Inshell Basis",2002,255825
+"229","Wheat",2002,43705000
+"230","Almonds, Shelled Basis",2003,471740
+"231","Apples, Fresh",2003,4780600
+"232","Asparagus, Fresh",2003,93530
+"233","Avocados, Fresh",2003,211721
+"234","Barley",2003,6059000
+"235","Coffee, Green",2003,9780
+"236","Corn",2003,256278000
+"237","Cotton",2003,3974557.8267
+"238","Dairy, Milk, Fluid",2003,77290000
+"239","Filberts, Inshell Basis",2003,34400
+"240","Fresh Apricots",2003,87090
+"241","Fresh Cherries,(Sweet&Sour)",2003,325670
+"242","Fresh Peaches & Nectarines",2003,1480070
+"243","Fresh Plums & Prunes",2003,728460
+"244","Grapefruit, Fresh",2003,1964000
+"245","Grapes, Fresh",2003,730701
+"246","Honey",2003,82268.52548
+"247","Lemons/Limes, Fresh",2003,724000
+"248","Macadamia, Inshell Basis",2003,24040
+"249","Meat, Beef and Veal",2003,12039000
+"250","Meat, Chicken",2003,14924000
+"251","Meat, Swine",2003,9056000
+"252","Oats",2003,2096000
+"253","Oil, Cottonseed",2003,396000
+"254","Oil, Olive",2003,2000
+"255","Oil, Peanut",2003,79000
+"256","Oil, Rapeseed",2003,291000
+"257","Oil, Soybean",2003,7748000
+"258","Oil, Sunflowerseed",2003,270000
+"259","Orange Juice",2003,1043465
+"260","Oranges, Fresh",2003,11734000
+"261","Pears, Fresh",2003,847356
+"262","Pecans, Inshell Basis",2003,127958
+"263","Pistachios, Inshell Basis",2003,53970
+"264","Potato Products, Frozen",2003,3751746
+"265","Poultry, Meat, Turkey",2003,2529000
+"266","Raisins",2003,319238
+"267","Rice, Milled",2003,6420000
+"268","Rye",2003,219000
+"269","Sorghum",2003,10446000
+"270","Strawberries, Fresh",2003,1004118
+"271","Sugar, Centrifugal",2003,7644000
+"272","Tangerines/Mandarins, Fresh",2003,419000
+"273","Walnuts, Inshell Basis",2003,295741
+"274","Wheat",2003,63814000
+"275","Almonds, Shelled Basis",2004,462664
+"276","Apples, Fresh",2004,5683040
+"277","Asparagus, Fresh",2004,81830
+"278","Avocados, Fresh",2004,162722
+"279","Barley",2004,6091000
+"280","Coffee, Green",2004,11160
+"281","Corn",2004,299914000
+"282","Cotton",2004,5062308.62934
+"283","Dairy, Milk, Fluid",2004,77535000
+"284","Filberts, Inshell Basis",2004,48502
+"285","Fresh Apricots",2004,91620
+"286","Fresh Cherries,(Sweet&Sour)",2004,353800
+"287","Fresh Peaches & Nectarines",2004,1429814
+"288","Fresh Plums & Prunes",2004,294460
+"289","Grapefruit, Fresh",2004,924000
+"290","Grapes, Fresh",2004,800663
+"291","Honey",2004,82884.04711
+"292","Lemons/Limes, Fresh",2004,789000
+"293","Macadamia, Inshell Basis",2004,25628
+"294","Meat, Beef and Veal",2004,11261000
+"295","Meat, Chicken",2004,15514000
+"296","Meat, Swine",2004,9313000
+"297","Oats",2004,1679000
+"298","Oil, Cottonseed",2004,434000
+"299","Oil, Olive",2004,2000
+"300","Oil, Peanut",2004,57000
+"301","Oil, Rapeseed",2004,378000
+"302","Oil, Soybean",2004,8782000
+"303","Oil, Sunflowerseed",2004,120000
+"304","Orange Juice",2004,693977
+"305","Oranges, Fresh",2004,8420000
+"306","Pears, Fresh",2004,795837
+"307","Pecans, Inshell Basis",2004,84277
+"308","Pistachios, Inshell Basis",2004,157400
+"309","Potato Products, Frozen",2004,3856776
+"310","Poultry, Meat, Turkey",2004,2441000
+"311","Raisins",2004,251562
+"312","Rice, Milled",2004,7462000
+"313","Rye",2004,210000
+"314","Sorghum",2004,11523000
+"315","Strawberries, Fresh",2004,1028339
+"316","Sugar, Centrifugal",2004,7847000
+"317","Tangerines/Mandarins, Fresh",2004,367000
+"318","Walnuts, Inshell Basis",2004,294834
+"319","Wheat",2004,58738000
+"320","Almonds, Shelled Basis",2005,415040
+"321","Apples, Fresh",2005,5261960
+"322","Asparagus, Fresh",2005,83000
+"323","Avocados, Fresh",2005,283405
+"324","Barley",2005,4613000
+"325","Coffee, Green",2005,8760
+"326","Corn",2005,282311000
+"327","Cotton",2005,5201434.4826
+"328","Dairy, Milk, Fluid",2005,80286000
+"329","Filberts, Inshell Basis",2005,33566
+"330","Fresh Apricots",2005,74390
+"331","Fresh Cherries,(Sweet&Sour)",2005,350170
+"332","Fresh Peaches & Nectarines",2005,1365400
+"333","Fresh Plums & Prunes",2005,431820
+"334","Grapefruit, Fresh",2005,1118000
+"335","Grapes, Fresh",2005,903202
+"336","Honey",2005,78910.59871
+"337","Lemons/Limes, Fresh",2005,889000
+"338","Macadamia, Inshell Basis",2005,27216
+"339","Meat, Beef and Veal",2005,11318000
+"340","Meat, Chicken",2005,16104000
+"341","Meat, Swine",2005,9392000
+"342","Oats",2005,1667000
+"343","Oil, Cottonseed",2005,435000
+"344","Oil, Olive",2005,3000
+"345","Oil, Peanut",2005,82000
+"346","Oil, Rapeseed",2005,421000
+"347","Oil, Soybean",2005,9250000
+"348","Oil, Sunflowerseed",2005,251000
+"349","Orange Juice",2005,709473
+"350","Oranges, Fresh",2005,8394000
+"351","Pears, Fresh",2005,745446
+"352","Pecans, Inshell Basis",2005,127110
+"353","Pistachios, Inshell Basis",2005,128400
+"354","Potato Products, Frozen",2005,3999000
+"355","Poultry, Meat, Turkey",2005,2464000
+"356","Raisins",2005,324319
+"357","Rice, Milled",2005,7113000
+"358","Rye",2005,191000
+"359","Sorghum",2005,10005000
+"360","Strawberries, Fresh",2005,1019449
+"361","Sugar, Centrifugal",2005,7146000
+"362","Tangerines/Mandarins, Fresh",2005,435000
+"363","Walnuts, Inshell Basis",2005,322100
+"364","Wheat",2005,57280000
+"365","Almonds, Shelled Basis",2006,508023
+"366","Apples, Fresh",2006,5351610
+"367","Avocados, Fresh",2006,135500
+"368","Barley",2006,3984000
+"369","Coffee, Green",2006,10320
+"370","Corn",2006,282303000
+"371","Cotton",2006,4730932.18386
+"372","Dairy, Milk, Fluid",2006,82582000
+"373","Filberts, Inshell Basis",2006,39010
+"374","Fresh Apricots",2006,40370
+"375","Fresh Cherries,(Sweet&Sour)",2006,386510
+"376","Fresh Peaches & Nectarines",2006,1171000
+"377","Fresh Plums & Prunes",2006,684920
+"378","Grapefruit, Fresh",2006,1476000
+"379","Grapes, Fresh",2006,723561
+"380","Honey",2006,69960.81442
+"381","Lemons/Limes, Fresh",2006,724000
+"382","Macadamia, Inshell Basis",2006,26300
+"383","Meat, Beef and Veal",2006,11981000
+"384","Meat, Chicken",2006,16159000
+"385","Meat, Swine",2006,9632000
+"386","Oats",2006,1559000
+"387","Oil, Cottonseed",2006,408000
+"388","Oil, Olive",2006,1000
+"389","Oil, Peanut",2006,97000
+"390","Oil, Rapeseed",2006,461000
+"391","Oil, Soybean",2006,9294000
+"392","Oil, Sunflowerseed",2006,294000
+"393","Orange Juice",2006,665039
+"394","Oranges, Fresh",2006,7369000
+"395","Pears, Fresh",2006,754000
+"396","Pecans, Inshell Basis",2006,313890
+"397","Pistachios, Inshell Basis",2006,107955
+"398","Potato Products, Frozen",2006,3841932
+"399","Poultry, Meat, Turkey",2006,2545000
+"400","Raisins",2006,280774
+"401","Rice, Milled",2006,6267000
+"402","Rye",2006,183000
+"403","Sorghum",2006,7738000
+"404","Sugar, Centrifugal",2006,6741000
+"405","Tangerines/Mandarins, Fresh",2006,378000
+"406","Walnuts, Inshell Basis",2006,317515
+"407","Wheat",2006,49316000
+"408","Almonds, Shelled Basis",2007,630493
+"409","Apples, Fresh",2007,4154195
+"410","Avocados, Fresh",2007,170000
+"411","Barley",2007,5030000
+"412","Coffee, Green",2007,10320
+"413","Corn",2007,338295000
+"414","Cotton",2007,4223852.196
+"415","Dairy, Milk, Fluid",2007,84211000
+"416","Filberts, Inshell Basis",2007,33600
+"417","Fresh Apricots",2007,73500
+"418","Fresh Cherries,(Sweet&Sour)",2007,407880
+"419","Fresh Peaches & Nectarines",2007,1269061
+"420","Fresh Plums & Prunes",2007,352895
+"421","Grapefruit, Fresh",2007,1423000
+"422","Grapes, Fresh",2007,834909
+"423","Honey",2007,66959.40939
+"424","Lemons/Limes, Fresh",2007,638000
+"425","Macadamia, Inshell Basis",2007,16330
+"426","Meat, Beef and Veal",2007,12168000
+"427","Meat, Chicken",2007,16452000
+"428","Meat, Swine",2007,9962000
+"429","Oats",2007,1597000
+"430","Oil, Cottonseed",2007,392000
+"431","Oil, Olive",2007,2000
+"432","Oil, Peanut",2007,78000
+"433","Oil, Rapeseed",2007,507000
+"434","Oil, Soybean",2007,9682000
+"435","Oil, Sunflowerseed",2007,299000
+"436","Orange Juice",2007,830819
+"437","Oranges, Fresh",2007,9237000
+"438","Pears, Fresh",2007,798200
+"439","Pecans, Inshell Basis",2007,290300
+"440","Pistachios, Inshell Basis",2007,188694
+"441","Poultry, Meat, Turkey",2007,2667000
+"442","Raisins",2007,326600
+"443","Rice, Milled",2007,6344000
+"444","Rye",2007,206000
+"445","Sorghum",2007,13073000
+"446","Sugar, Centrifugal",2007,7727000
+"447","Tangerines/Mandarins, Fresh",2007,540000
+"448","Walnuts, Inshell Basis",2007,297600
+"449","Wheat",2007,59156000
+"450","Almonds, Shelled Basis",2008,739400
+"451","Apples, Fresh",2008,4508344
+"452","Avocados, Fresh",2008,0
+"453","Barley",2008,5230000
+"454","Coffee, Green",2008,10260
+"455","Corn",2008,312126000
+"456","Cotton",2008,3157002.93
+"457","Dairy, Milk, Fluid",2008,86410000
+"458","Filberts, Inshell Basis",2008,30800
+"459","Fresh Apricots",2008,78930
+"460","Fresh Cherries,(Sweet&Sour)",2008,321315
+"461","Fresh Peaches & Nectarines",2008,1302563
+"462","Fresh Plums & Prunes",2008,381120
+"463","Grapefruit, Fresh",2008,1240000
+"464","Grapes, Fresh",2008,893758
+"465","Honey",2008,73922.46948
+"466","Lemons/Limes, Fresh",2008,862000
+"467","Meat, Beef and Veal",2008,12226000
+"468","Meat, Chicken",2008,16815000
+"469","Meat, Swine",2008,10684000
+"470","Oats",2008,1348000
+"471","Oil, Cottonseed",2008,386000
+"472","Oil, Olive",2008,2000
+"473","Oil, Peanut",2008,94000
+"474","Oil, Rapeseed",2008,505000
+"475","Oil, Soybean",2008,9514000
+"476","Oil, Sunflowerseed",2008,297000
+"477","Orange Juice",2008,772400
+"478","Oranges, Fresh",2008,8487000
+"479","Pears, Fresh",2008,789200
+"480","Pecans, Inshell Basis",2008,92560
+"481","Pistachios, Inshell Basis",2008,126100
+"482","Poultry, Meat, Turkey",2008,2801000
+"483","Raisins",2008,354100
+"484","Rice, Milled",2008,6617000
+"485","Rye",2008,211000
+"486","Sorghum",2008,12087000
+"487","Sugar, Centrifugal",2008,7665000
+"488","Tangerines/Mandarins, Fresh",2008,520000
+"489","Walnuts, Inshell Basis",2008,395500
+"490","Wheat",2008,68363000
+"491","Almonds, Shelled Basis",2009,639570
+"492","Apples, Fresh",2009,4505000
+"493","Barley",2009,4951000
+"494","Coffee, Green",2009,10200
+"495","Corn",2009,334052000
+"496","Cotton",2009,2925779.68092
+"497","Dairy, Milk, Fluid",2009,86817000
+"498","Filberts, Inshell Basis",2009,42640
+"499","Fresh Cherries,(Sweet&Sour)",2009,495346
+"500","Fresh Peaches & Nectarines",2009,1194354
+"501","Grapefruit, Fresh",2009,1123000
+"502","Grapes, Fresh",2009,851856
+"503","Honey",2009,65801.39412
+"504","Lemons/Limes, Fresh",2009,8e+05
+"505","Meat, Beef and Veal",2009,12203000
+"506","Meat, Chicken",2009,16162000
+"507","Meat, Swine",2009,10507000
+"508","Oats",2009,1354000
+"509","Oil, Cottonseed",2009,383000
+"510","Oil, Olive",2009,3000
+"511","Oil, Peanut",2009,71000
+"512","Oil, Rapeseed",2009,498000
+"513","Oil, Soybean",2009,8897000
+"514","Oil, Sunflowerseed",2009,332000
+"515","Orange Juice",2009,615000
+"516","Oranges, Fresh",2009,7491000
+"517","Pears, Fresh",2009,867120
+"518","Pistachios, Inshell Basis",2009,161025
+"519","Poultry, Meat, Turkey",2009,2733000
+"520","Raisins",2009,304400
+"521","Rice, Milled",2009,7163000
+"522","Rye",2009,191000
+"523","Sorghum",2009,9896000
+"524","Sugar, Centrifugal",2009,7362000
+"525","Tangerines/Mandarins, Fresh",2009,583000
+"526","Walnuts, Inshell Basis",2009,396400
+"527","Wheat",2009,60423000
+"528","Almonds, Shelled Basis",2010,748430
+"529","Apples, Fresh",2010,4219541
+"530","Barley",2010,4137000
+"531","Coffee, Green",2010,9600
+"532","Corn",2010,339614000
+"533","Cotton",2010,4109111.46882
+"534","Dairy, Milk, Fluid",2010,87488000
+"535","Filberts, Inshell Basis",2010,25400
+"536","Fresh Cherries,(Sweet&Sour)",2010,367000
+"537","Fresh Peaches & Nectarines",2010,1237219
+"538","Grapefruit, Fresh",2010,1139000
+"539","Grapes, Fresh",2010,900934
+"540","Honey",2010,79511.60546
+"541","Lemons/Limes, Fresh",2010,853000
+"542","Meat, Beef and Veal",2010,12048000
+"543","Meat, Chicken",2010,16791000
+"544","Meat, Swine",2010,10187000
+"545","Oats",2010,1306000
+"546","Oil, Cottonseed",2010,379000
+"547","Oil, Olive",2010,5000
+"548","Oil, Peanut",2010,86000
+"549","Oil, Rapeseed",2010,546000
+"550","Oil, Soybean",2010,8659000
+"551","Oil, Sunflowerseed",2010,306000
+"552","Orange Juice",2010,660075
+"553","Oranges, Fresh",2010,8078000
+"554","Pears, Fresh",2010,774477
+"555","Pistachios, Inshell Basis",2010,236775
+"556","Poultry, Meat, Turkey",2010,2607000
+"557","Raisins",2010,358200
+"558","Rice, Milled",2010,7975000
+"559","Rye",2010,190000
+"560","Sorghum",2010,9740000
+"561","Sugar, Centrifugal",2010,7326000
+"562","Tangerines/Mandarins, Fresh",2010,643000
+"563","Walnuts, Inshell Basis",2010,462660
+"564","Wheat",2010,61641000
+"565","Almonds, Shelled Basis",2011,920800
+"566","Apples, Fresh",2011,4231474
+"567","Barley",2011,3810000
+"568","Coffee, Green",2011,6600
+"569","Corn",2011,343043000
+"570","Cotton",2011,3919038.12
+"571","Dairy, Milk, Fluid",2011,89020000
+"572","Filberts, Inshell Basis",2011,37200
+"573","Fresh Cherries,(Sweet&Sour)",2011,404660
+"574","Fresh Peaches & Nectarines",2011,1210412
+"575","Grapefruit, Fresh",2011,1061000
+"576","Grapes, Fresh",2011,896916
+"577","Honey",2011,66768.90159
+"578","Lemons/Limes, Fresh",2011,771000
+"579","Meat, Beef and Veal",2011,12048000
+"580","Meat, Chicken",2011,16931000
+"581","Meat, Swine",2011,10332000
+"582","Oats",2011,1045000
+"583","Oil, Cottonseed",2011,379000
+"584","Oil, Olive",2011,6000
+"585","Oil, Peanut",2011,86000
+"586","Oil, Rapeseed",2011,578000
+"587","Oil, Soybean",2011,8979000
+"588","Oil, Sunflowerseed",2011,267000
+"589","Orange Juice",2011,688640
+"590","Oranges, Fresh",2011,8180000
+"591","Pears, Fresh",2011,875533
+"592","Pistachios, Inshell Basis",2011,203150
+"593","Poultry, Meat, Turkey",2011,2593000
+"594","Raisins",2011,348631
+"595","Rice, Milled",2011,6771000
+"596","Rye",2011,170000
+"597","Sorghum",2011,8128000
+"598","Sugar, Centrifugal",2011,7607000
+"599","Tangerines/Mandarins, Fresh",2011,635000
+"600","Walnuts, Inshell Basis",2011,440000
+"601","Wheat",2011,57319000
+"602","Almonds, Shelled Basis",2012,952500
+"603","Apples, Fresh",2012,4200000
+"604","Barley",2012,4812000
+"605","Coffee, Green",2012,6300
+"606","Corn",2012,375683000
+"607","Cotton",2012,3843052.32534
+"608","Dairy, Milk, Fluid",2012,91010000
+"609","Filberts, Inshell Basis",2012,36300
+"610","Fresh Cherries,(Sweet&Sour)",2012,418135
+"611","Fresh Peaches & Nectarines",2012,1099300
+"612","Grapefruit, Fresh",2012,1092000
+"613","Grapes, Fresh",2012,908000
+"614","Honey",2012,63914.00613
+"615","Lemons/Limes, Fresh",2012,827000
+"616","Meat, Beef and Veal",2012,11855000
+"617","Meat, Chicken",2012,16856000
+"618","Meat, Swine",2012,10575000
+"619","Oats",2012,1089000
+"620","Oil, Cottonseed",2012,377000
+"621","Oil, Olive",2012,10000
+"622","Oil, Peanut",2012,108000
+"623","Oil, Rapeseed",2012,626000
+"624","Oil, Soybean",2012,8990000
+"625","Oil, Sunflowerseed",2012,248000
+"626","Orange Juice",2012,662719
+"627","Oranges, Fresh",2012,8014000
+"628","Pears, Fresh",2012,796338
+"629","Pistachios, Inshell Basis",2012,249929
+"630","Poultry, Meat, Turkey",2012,2675000
+"631","Raisins",2012,313795
+"632","Rice, Milled",2012,6356000
+"633","Rye",2012,192000
+"634","Sorghum",2012,8636000
+"635","Sugar, Centrifugal",2012,7700000
+"636","Tangerines/Mandarins, Fresh",2012,664000
+"637","Walnuts, Inshell Basis",2012,450871
+"638","Wheat",2012,61755000
